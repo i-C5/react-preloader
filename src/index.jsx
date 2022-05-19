@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactLoading from 'react-loading'
 
 function Preloader({ duration }) {
-  const [preload, setPreload] = React.useState(true)
+  const [preload, setPreload] = useState(true)
 
-  React.useEffect(() => {
+  useEffect(() => {
     const timer = setTimeout(() => {
       setPreload(false)
     }, duration)
