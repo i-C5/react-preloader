@@ -1,0 +1,21 @@
+{
+  "name": "@i-c5/react-preloader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "author": "C5",
+  "license": "MIT",
+  "peerDependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "react-loading": "^2.0.3"
+  },
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
