@@ -1,17 +1,17 @@
-# React Preloaders
+# React Preloader
 
 ### Installation
 
-`npm i @i-c5/react-preloaders`
+`npm i @i-c5/react-preloader`
 
 or
 
-`yarn add @i-c5/react-preloaders`
+`yarn add @i-c5/react-preloader`
 
 ### Usage
 
 ```
-import Preloader from @i-c5/react-preloaders
+import Preloader from @i-c5/react-preloader
 
 export default function SomeFunction(){
     return(
